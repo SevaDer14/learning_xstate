@@ -12,23 +12,15 @@ describe('user can fill in the wizard', () => {
     cy.get('[data-cy=reaction-msg]').should('contain.text', 'Alrite, music then.')
     cy.get('[data-cy=answer-a]').click()
 
-    /*1) What is better? (Lil Pump) (Pink Floyd)*/
-    cy.get('[data-cy=reaction-msg]').should('contain.text', 'Damn nice band!')
-    cy.get('[data-cy=answer-b]').click()
-
-    /*2) Best Drummer in the world? (Lars Ulrich) (Mike Portnoy)*/
-    cy.get('[data-cy=reaction-msg]').should('contain.text', 'Agree, Dream Theatre sucks!')
-    cy.get('[data-cy=answer-a]').click()
-
-    /*3) Best guitar solo ever? (Lil Wane's) (High Hopes)*/
+    /*1) Best guitar solo ever? (Lil Wane's) (High Hopes)*/
     cy.get('[data-cy=reaction-msg]').should('contain.text', 'Gives chills every time')
     cy.get('[data-cy=answer-b]').click()
 
-    /*4) Sex, Drugs and ... (Rock'n'Roll) (Volleyball)*/
+    /*2) Sex, Drugs and ... (Rock'n'Roll) (Volleyball)*/
     cy.get('[data-cy=reaction-msg]').should('contain.text', 'Correct')
     cy.get('[data-cy=answer-a]').click()
 
-    /*5) Composer that is from Early Romantisizm? (Franz List) (Rachmaninoff)*/
+    /*3) Composer that is from Early Romantisizm? (Franz List) (Rachmaninoff)*/
     cy.get('[data-cy=reaction-msg]').should('contain.text', 'For Fuck Sake Man! Maybe John Cage no!?')
     cy.get('[data-cy=answer-b]').click()
 
@@ -48,21 +40,13 @@ describe('user can fill in the wizard', () => {
     cy.get('[data-cy=reaction-msg]').should('contain.text', 'GETAUTAHERE!!')
     cy.get('[data-cy=answer-a]').click()
 
-    /*2) What is better? (DOOM) (SIMS)*/
-    cy.get('[data-cy=reaction-msg]').should('contain.text', 'Gay..')
-    cy.get('[data-cy=answer-b]').click()
-
-    /*3) Whats better? (CS 1.6) (CS GO)*/
+    /*2) Counter Strike ... (1.6) (GO)*/
     cy.get('[data-cy=reaction-msg]').should('contain.text', 'Oldschool, my man!')
     cy.get('[data-cy=answer-a]').click()
 
-    /*4) Radio Bandit? (Yes) (No)*/
+    /*3) Radio Bandit? (Yes) (No)*/
     cy.get('[data-cy=reaction-msg]').should('contain.text', 'Обходи его пацаны!')
     cy.get('[data-cy=answer-b]').click()
-
-    /*5) Violent games are dangerous? (Yes) (No)*/
-    cy.get('[data-cy=reaction-msg]').should('contain.text', 'Kill Your Self')
-    cy.get('[data-cy=answer-a]').click()
 
     cy.get('[data-cy=show-results-btn]').click()
     cy.get('[data-cy=result-msg]').should('contain.text', '1/5 you suck man..')
