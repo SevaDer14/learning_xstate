@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "question": "Hello Boi, whats your name?",
+    "type": "input",
+    "response_1": "Noice"
+  },
+  {
+    "id": 2,
+    "question": "Choose Category of questions:",
+    "type": "choice",
+    "choice_1": "Music",
+    "choice_2": "Gaming",
+    "response_1": "Alrite, music then..",
+    "response_2": "Alrite, gaming then.."
+  },
+  {
+    "id": 3,
+    "question": "Best guitar solo ever?",
+    "type": "choice",
+    "choice_1": "Lil Wane's",
+    "choice_2": "High Hopes",
+    "correct": 2,
+    "response_1": "You joking right?",
+    "response_2": "Gives chills every time"
+  },
+  {
+    "id": 4,
+    "question": "Sex, Drugs and ...",
+    "type": "choice",
+    "choice_1": "Rock'n'Roll",
+    "choice_2": "Volleyball",
+    "correct": 1,
+    "response_1": "Correct",
+    "response_2": "Really?"
+  },
+  {
+    "id": 5,
+    "question": "Composer that is from Early Romantisizm?",
+    "type": "choice",
+    "choice_1": "Franz List",
+    "choice_2": "Rachmaninoff",
+    "correct": 1,
+    "response_1": "Correct",
+    "response_2": "Oh For Fuck Sake Man, you don't know THIS?!"    
+  },
+  {
+    "id": 6,
+    "question": "Whats your rig?",
+    "type": "choice",
+    "choice_1": "XBox",
+    "choice_2": "PC",
+    "correct": 2,
+    "response_1": "GETAUTAHERE!!",
+    "response_2": "My man!"
+  },
+  {
+    "id": 7,
+    "question": "Counter Strike ...",
+    "type": "choice",
+    "choice_1": "1.6",
+    "choice_2": "GO",
+    "correct": 1,
+    "response_1": "Oldschool, I like it!",
+    "response_2": "Сука Блять!"
+  },
+  {
+    "id": 8,
+    "question": "Radio Bandit?",
+    "type": "choice",
+    "choice_1": "Yes",
+    "choice_2": "No",
+    "correct": 1,
+    "response_1": "Лады, давай поболтаем",
+    "response_2": "Вали, вали его!"
+  }
+]

@@ -21,11 +21,11 @@ describe('user can fill in the wizard', () => {
     cy.get('[data-cy=answer-a]').click()
 
     /*3) Composer that is from Early Romantisizm? (Franz List) (Rachmaninoff)*/
-    cy.get('[data-cy=reaction-msg]').should('contain.text', 'For Fuck Sake Man! Maybe John Cage no!?')
+    cy.get('[data-cy=reaction-msg]').should('contain.text', 'Oh For Fuck Sake Man, you don\'t know THIS?!')
     cy.get('[data-cy=answer-b]').click()
 
     cy.get('[data-cy=show-results-btn]').click()
-    cy.get('[data-cy=result-msg]').should('contain.text', 'Congratulations Seva, you scored 4/5 you are not hopeless!')
+    cy.get('[data-cy=result-msg]').should('contain.text', 'Congratulations Seva, you scored 2/3!')
   });
 
   it('is expected to congratulatulate user if scores more than 3 in music category', () => {
@@ -41,14 +41,14 @@ describe('user can fill in the wizard', () => {
     cy.get('[data-cy=answer-a]').click()
 
     /*2) Counter Strike ... (1.6) (GO)*/
-    cy.get('[data-cy=reaction-msg]').should('contain.text', 'Oldschool, my man!')
+    cy.get('[data-cy=reaction-msg]').should('contain.text', 'Oldschool, I like it!')
     cy.get('[data-cy=answer-a]').click()
 
     /*3) Radio Bandit? (Yes) (No)*/
-    cy.get('[data-cy=reaction-msg]').should('contain.text', 'Обходи его пацаны!')
+    cy.get('[data-cy=reaction-msg]').should('contain.text', 'Вали, вали его!')
     cy.get('[data-cy=answer-b]').click()
 
     cy.get('[data-cy=show-results-btn]').click()
-    cy.get('[data-cy=result-msg]').should('contain.text', '1/5 you suck man..')
+    cy.get('[data-cy=result-msg]').should('contain.text', '1/3 you suck man..')
   });
 })
